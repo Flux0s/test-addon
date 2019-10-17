@@ -11,3 +11,4 @@ Napi::Object functionexample::Init(Napi::Env env, Napi::Object exports) {
 
   return exports;
 }
+int functionexample::add(int a, int b) { return a + b; }
